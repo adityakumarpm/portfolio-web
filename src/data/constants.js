@@ -1,3 +1,12 @@
+import clinohealthLogo from "../assets/images/clinohealthinovation_logo.jpg";
+import rechargekitLogo from "../assets/images/rechargekit.webp";
+import javaTechnocratLogo from "../assets/images/Jt.png";
+import neoSOFT from "../assets/images/neosoft-logo.svg";
+import lit from "../assets/images/lit.png";
+import ea from "../assets/images/EA.png";
+import smylee from "../assets/images/Smylee.png";
+import coverSure from "../assets/images/CoverSure.png";
+
 export const Bio = {
   name: "Amaresh Pati",
   roles: [
@@ -8,8 +17,7 @@ export const Bio = {
   description:
     "I am a skilled and adaptive developer, driven by a passion for tech innovation. With hands-on experience in delivering scalable, high-quality solutions, I approach challenges with a growth mindset and a commitment to impactful results.",
   github: "https://github.com/ptiamaresh13",
-  resume:
-    "https://drive.google.com/file/d/1ZWDuDlE67LOxNms7R4CWaLV2uSHdvAEW/view?usp=sharing",
+  resume: "/resume.pdf",
   linkedin: "https://www.linkedin.com/in/amaresh-pati-1179b2184/",
   // twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/amaresh_13/",
@@ -81,154 +89,109 @@ export const skills = [
 ];
 
 
-// export const experiences = [
-//   {
-//     id: 0,
-//     img: "https://media.licdn.com/dms/image/v2/D560BAQGKj90qdlqDeQ/company-logo_200_200/company-logo_200_200/0/1719599541925/clinohealthinovation_logo?e=1739404800&v=beta&t=5BS-l8_6a0oWPOO-TbsfeMpWAY87X9CMeQv10GUYX8Y", // Add an image URL if available
-//     role: "Full-Stack Developer",
-//     company: "Clinohealthinnovation Pvt. Ltd.",
-//     date: "Sep 2023 – Present",
-//     desc: [
-//       "Developed and deployed end-to-end web and mobile applications, enhancing customer satisfaction.",
-//       "Implemented UI/UX improvements in collaboration with the design team, boosting user experience by 25%.",
-//       "Built AWS infrastructure to handle high traffic, managing server loads for over 100,000 users and ensuring secure application scaling",
-//       "Led backend development with Express.js, MySQL, and MongoDB, optimizing database operations for enhanced performance."
-//     ],
-//     skills: [
-//       "React Native",
-//       "Flutter",
-//       "Node.js",
-//       "Express.js",
-//       "MySQL",
-//       "AWS",
-//       "MongoDB"
-//     ],
-//     doc: "", // Add documentation URL if available
-//   },
-//   {
-//     id: 1,
-//     img: "https://media.licdn.com/dms/image/v2/D560BAQEk1OWYT1-dRg/company-logo_200_200/company-logo_200_200/0/1719256792463/rkitlimited_logo?e=1739404800&v=beta&t=91TCWn5aCXwin1S7RzW1Gbk0-SjhCRyXRMs8wYZ_efE",
-//     role: "Mobile Application Developer",
-//     company: "Rechargekit Communication Pvt. Ltd.",
-//     date: "May 2022 – Aug 2023",
-//     desc: [
-//       "Focused on cross-platform mobile development using React Native and Flutter, successfully deploying multiple apps on Google Play and App Store.",
-//       "Developed user-centered interfaces with responsive layouts and functional components.",
-//       "Integrated Firebase for analytics and notifications, enhancing user engagement.",
-//       "Managed code quality using Git version control."
-//     ],
-//     skills: [
-//       "React Native",
-//       "Flutter",
-//       "Firebase",
-//       "Git",
-//       "JavaScript",
-//       "Android",
-//       "iOS"
-//     ],
-//     doc: "", // Add documentation URL if available
-//   },
-//   {
-//     id: 2,
-//     img: "https://media.licdn.com/dms/image/v2/D4D0BAQH7fSgw5WLlEA/company-logo_200_200/company-logo_200_200/0/1692222492008?e=1739404800&v=beta&t=mf7gOLZaEblQOF7iU1LsgPwKEjdWxwYAQnbkSPToGF8",
-//     role: "Technical Trainer",
-//     company: "Java Technocrat",
-//     date: "Sep 2021 – May 2022",
-//     desc: [
-//       "Conducted training sessions to strengthen programming fundamentals.",
-//       "Mentored new developers and provided hands-on guidance in Java and foundational programming concepts."
-//     ],
-//     skills: [
-//       "Java",
-//       "Teaching",
-//       "JavaScript"
-//     ],
-//     doc: "", // Add documentation URL if available
-//   },
-// ];
 
-export const experiences = [
-  {
-    id: 0,
-    img: "https://media.licdn.com/dms/image/v2/D560BAQGKj90qdlqDeQ/company-logo_200_200/company-logo_200_200/0/1719599541925/clinohealthinovation_logo?e=1739404800&v=beta&t=5BS-l8_6a0oWPOO-TbsfeMpWAY87X9CMeQv10GUYX8Y", // Clinohealth Innovation logo URL
-    role: "Full-Stack Developer",
-    company: "Clinohealth Innovation Pvt. Ltd.",
-    date: "Sep 2023 – Present",
-    desc: [
-      "Created a suite of 4+ mobile apps and 2 web applications, enhancing performance and user satisfaction by 30%.",
-      "Developed an Ambulance Booking App, reducing response time by 20%, improving emergency service response.",
-      "Built a Doctor Booking App to streamline scheduling, increasing accessibility for users.",
-      "Developed an IoT Monitoring App to optimize data tracking, reducing diagnostic errors by 35%.",
-      "Managed AWS infrastructure for 100,000+ users, achieving 99.9% uptime, scalability, and security.",
-      "Led backend development using Express.js, MySQL, REST APIs, and MongoDB, boosting database performance by 25%.",
-      "Deployed 15+ apps on AWS, Google Play Console, and Apple App Store, enhancing deployment efficiency by 40%.",
-      "Led a team of 10 developers, improving team productivity and code quality through peer code reviews and pair programming."
-    ],
-    skills: [
-      "React Native",
-      "Flutter",
-      "Node.js",
-      "Express.js",
-      "MySQL",
-      "AWS",
-      "MongoDB",
-      "Leadership"
-    ],
-    doc: "", // Add documentation URL if available
-  },
-  {
-    id: 1,
-    img: "https://media.licdn.com/dms/image/v2/D560BAQEk1OWYT1-dRg/company-logo_200_200/company-logo_200_200/0/1719256792463/rkitlimited_logo?e=1739404800&v=beta&t=91TCWn5aCXwin1S7RzW1Gbk0-SjhCRyXRMs8wYZ_efE", // RechargeKit logo URL
-    role: "Mobile Application Developer",
-    company: "RechargeKit Communication Pvt. Ltd.",
-    date: "May 2022 – Aug 2023",
-    desc: [
-      "Built 8 mobile apps using React Native and Flutter, achieving over 90% ratings on Google Play and App Store.",
-      "Developed a Doctor Booking App, increasing booking efficiency by 25% and boosting user retention.",
-      "Enhanced e-commerce and inventory management processes, reducing drop-off rates by 18% and improving operational efficiency by 30%.",
-      "Implemented audio and video uploading capabilities for media handling, supporting diverse multimedia formats.",
-      "Improved UI/UX for cross-device responsiveness, enhancing user engagement.",
-      "Integrated Firebase for push notifications and analytics, improving user retention by 10%.",
-      "Optimized API performance with GraphQL and Axios, reducing load times by 30%."
-    ],
-    skills: [
-      "React Native",
-      "Flutter",
-      "Firebase",
-      "Git",
-      "JavaScript",
-      "GraphQL",
-      "iOS",
-      "Android"
-    ],
-    doc: "", // Add documentation URL if available
-  },
-  {
-    id: 2,
-    img: "https://media.licdn.com/dms/image/v2/D4D0BAQH7fSgw5WLlEA/company-logo_200_200/company-logo_200_200/0/1692222492008?e=1739404800&v=beta&t=mf7gOLZaEblQOF7iU1LsgPwKEjdWxwYAQnbkSPToGF8", // Java Technocrat logo URL
-    role: "Technical Trainer",
-    company: "Java Technocrat",
-    date: "Sep 2021 – May 2022",
-    desc: [
-      "Conducted 50+ training sessions for 500+ students on Java, Python, and Oracle Database, focusing on practical skills and industry standards.",
-      "Delivered 20+ webinars and seminars to simplify complex technical concepts for large audiences."
-    ],
-    skills: [
-      "Java",
-      "Python",
-      "Oracle Database",
-      "Teaching",
-      "JavaScript"
-    ],
-    doc: "", // Add documentation URL if available
-  },
+export const experiences = [{
+  id: 3,
+  img: neoSOFT, // NeoSOFT logo
+  role: "Software Engineer",
+  company: "NeoSOFT Pvt. Ltd.",
+  date: "Dec 2024 – Present",
+  desc: [
+    "Sportz Interactive – European Athletics App: Built core RN features for real-time live event coverage with zero noticeable UI lag; handled 5,000+ concurrent users.",
+    "Coversure – Motor Insurance: Improved purchase workflow for an app with 150,000+ downloads (4.5★), reduced crashes, and clarified critical UI flows.",
+    "Smylee App: Upgraded to React Native 0.81.2 (New Architecture) across iOS & Android, boosting stability and performance for 8,000+ users."
+  ],
+  skills: [
+    "React Native",
+    "TypeScript",
+    "Redux",
+    "Reanimated",
+    "iOS",
+    "Android"
+  ],
+  doc: "",
+},
+{
+  id: 3,
+  img: clinohealthLogo, // Clinohealth Innovation logo URL
+  role: "Full-Stack Developer",
+  company: "Clinohealth Innovation Pvt. Ltd.",
+  date: "Sep 2023 – Present",
+  desc: [
+    "Created a suite of 4+ mobile apps and 2 web applications, enhancing performance and user satisfaction by 30%.",
+    "Developed an Ambulance Booking App, reducing response time by 20%, improving emergency service response.",
+    "Built a Doctor Booking App to streamline scheduling, increasing accessibility for users.",
+    "Developed an IoT Monitoring App to optimize data tracking, reducing diagnostic errors by 35%.",
+    "Managed AWS infrastructure for 100,000+ users, achieving 99.9% uptime, scalability, and security.",
+    "Led backend development using Express.js, MySQL, REST APIs, and MongoDB, boosting database performance by 25%.",
+    "Deployed 15+ apps on AWS, Google Play Console, and Apple App Store, enhancing deployment efficiency by 40%.",
+    "Led a team of 10 developers, improving team productivity and code quality through peer code reviews and pair programming."
+  ],
+  skills: [
+    "React Native",
+    "Flutter",
+    "Node.js",
+    "Express.js",
+    "MySQL",
+    "AWS",
+    "MongoDB",
+    "Leadership"
+  ],
+  doc: "", // Add documentation URL if available
+},
+{
+  id: 1,
+  img: rechargekitLogo, // RechargeKit logo URL
+  role: "Mobile Application Developer",
+  company: "RechargeKit Communication Pvt. Ltd.",
+  date: "May 2022 – Aug 2023",
+  desc: [
+    "Built 8 mobile apps using React Native and Flutter, achieving over 90% ratings on Google Play and App Store.",
+    "Developed a Doctor Booking App, increasing booking efficiency by 25% and boosting user retention.",
+    "Enhanced e-commerce and inventory management processes, reducing drop-off rates by 18% and improving operational efficiency by 30%.",
+    "Implemented audio and video uploading capabilities for media handling, supporting diverse multimedia formats.",
+    "Improved UI/UX for cross-device responsiveness, enhancing user engagement.",
+    "Integrated Firebase for push notifications and analytics, improving user retention by 10%.",
+    "Optimized API performance with GraphQL and Axios, reducing load times by 30%."
+  ],
+  skills: [
+    "React Native",
+    "Flutter",
+    "Firebase",
+    "Git",
+    "JavaScript",
+    "GraphQL",
+    "iOS",
+    "Android"
+  ],
+  doc: "", // Add documentation URL if available
+},
+{
+  id: 0,
+  img: javaTechnocratLogo, // Java Technocrat logo URL
+  role: "Technical Trainer",
+  company: "Java Technocrat",
+  date: "Sep 2021 – May 2022",
+  desc: [
+    "Conducted 50+ training sessions for 500+ students on Java, Python, and Oracle Database, focusing on practical skills and industry standards.",
+    "Delivered 20+ webinars and seminars to simplify complex technical concepts for large audiences."
+  ],
+  skills: [
+    "Java",
+    "Python",
+    "Oracle Database",
+    "Teaching",
+    "JavaScript"
+  ],
+  doc: "", // Add documentation URL if available
+},
 ];
 
 
 export const education = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/v2/D5603AQE2lBGdPKDgdg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1703747037807?e=1736985600&v=beta&t=wKnke2ILeHgHxeWdL9d1RI0aI7dVPmlGV70Y5ZpDGl8", // Replace with your image URL
+    img: lit, // Replace with your image URL
     school: "Lakshya Institute of Technology, Bhubaneswar, Odisha",
     date: "Aug 2018 - Sep 2021",
     grade: "N/A",
@@ -238,6 +201,57 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 17,
+    title: "CoverSure – Insurance Made Easy",
+    description: [
+      "Personalized insurance portfolio manager for health, life, and motor policies with renewals, gap detection, and emergency assistance.",
+      "Implemented RN performance improvements, critical purchase/renewal UX flows, and crash-rate reductions.",
+      "Integrated reminders, document handling, and account-level protections across platforms."
+    ],
+    image: coverSure, // replace with local asset
+    tags: ["React Native", "Insurance", "Notifications", "iOS", "Android"],
+    category: "Mobile app",
+    github: "",
+    webapp: "https://play.google.com/store/apps/details?id=com.coversure",
+    overview: "All-in-one insurance app: manage policies, get renewal alerts, access assistance, and understand coverage.",
+    member: [{ name: "", img: "", linkedin: "", github: "" }]
+  },
+  {
+    id: 16,
+    title: "Smylee – Plan Everyday Events",
+    description: [
+      "Event-planning app to organize meetups with group/personal chat, RSVP tracking, reminders, and charity-pledge commitment features.",
+      "Built and upgraded RN flows; stabilized new architecture and notifications pipeline across iOS/Android.",
+      "Focused on snappy list rendering and safe background tasks for reminders and updates."
+    ],
+    image: smylee,
+    tags: ["React Native", "Events", "Push Notifications", "iOS", "Android"],
+    category: "Mobile app",
+    github: "",
+    webapp: "https://play.google.com/store/apps/details?id=com.smylee.smyleeapp",
+    overview: "Plan parties and meetups with chat, RSVPs, reminders, and a unique charity-pledge mechanism.",
+    member: [{ name: "", img: "", linkedin: "", github: "" }]
+  },
+
+  {
+    id: 15,
+    title: "European Athletics – Official App",
+    description: [
+      "Official app for European Athletics with real-time results, live coverage, schedules, athlete profiles, and personalized notifications.",
+      "Community engagement via polls and quizzes during events.",
+      "Recent refresh for 2025 season championships (Madrid/Maribor) with exclusive content and updates.",
+      "Delivered core RN features and performance optimizations for smooth live event experiences."
+    ],
+    image: ea,
+    tags: ["React Native", "Live Results", "Sports", "Push Notifications"],
+    category: "Mobile app",
+    github: "",
+    webapp: "https://play.google.com/store/apps/details?id=com.europeanathletics.mobile",
+    overview: "Official European Athletics app delivering live results, schedules, and athlete insights with interactive fan features.",
+    member: [{ name: "", img: "", linkedin: "", github: "" }]
+  },
+
   {
     id: 0,
     title: "CRM Mobile App",
