@@ -59,8 +59,8 @@ const Experience = () => {
             marginBottom: "40px",
           }}
         >
-          My work experience as a software engineer and working on different
-          companies and projects.
+          My professional experience as a Product Manager, driving product strategy,
+          growth, and execution across various organizations.
         </Desc>
 
         <VerticalTimeline>

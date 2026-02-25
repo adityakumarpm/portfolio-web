@@ -83,7 +83,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Amaresh Pati</Logo>
+        <Logo>Aditya Kumar</Logo>
         <Nav>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
@@ -91,7 +91,7 @@ const Footer = () => {
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
         </Nav>
-        <SocialMediaIcons>
+        {/* <SocialMediaIcons>
           <SocialMediaIcon href={Bio.github} target="display">
             <GitHub />
           </SocialMediaIcon>
@@ -101,8 +101,8 @@ const Footer = () => {
           <SocialMediaIcon href={Bio.insta} target="display">
             <Instagram />
           </SocialMediaIcon>
-        </SocialMediaIcons>
-        <Copyright>&copy; {new Date().getFullYear()} Amaresh Pati. All rights reserved.</Copyright>
+        </SocialMediaIcons> */}
+        <Copyright>&copy; {new Date().getFullYear()} Aditya Kumar. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

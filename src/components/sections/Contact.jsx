@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Bio, email } from "../../data/constants";
 
 const Container = styled.div`
   display: flex;
@@ -84,9 +85,7 @@ const Contact = () => {
         </Desc>
         <EmailContainer>
           <ContactTitle>My Email Address:</ContactTitle>
-          <EmailLink href="mailto:patiamaresh13@gmail.com">
-            patiamaresh13@gmail.com
-          </EmailLink>
+          <EmailLink href={`mailto:${email}`}>{email}</EmailLink>
         </EmailContainer>
       </Wrapper>
     </Container>

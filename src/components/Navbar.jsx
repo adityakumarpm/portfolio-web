@@ -72,7 +72,7 @@ const ButtonContainer = styled.div`
   }
 `;
 
-const GithubButton = styled.a`
+const LinkedinButton = styled.a`
   border: 1px solid ${({ theme }) => theme.primary};
   color: ${({ theme }) => theme.primary};
   justify-content: center;
@@ -163,23 +163,23 @@ const Navbar = () => {
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
               Education
             </NavLink>
-            <GithubButton
-              href={Bio.github}
+            <LinkedinButton
+              href={Bio.linkedin}
               target="_Blank"
               style={{
                 background: theme.primary,
                 color: theme.text_primary,
               }}
             >
-              Github Profile
-            </GithubButton>
+              Linkedin
+            </LinkedinButton>
           </MobileMenu>
         )}
 
         <ButtonContainer>
-          <GithubButton href={Bio.github} target="_Blank">
-            Github Profile
-          </GithubButton>
+          <LinkedinButton href={Bio.linkedin} target="_Blank">
+            Linkedin
+          </LinkedinButton>
         </ButtonContainer>
       </NavbarContainer>
     </Nav>

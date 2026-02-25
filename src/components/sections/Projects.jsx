@@ -173,11 +173,12 @@ const Projects = () => {
             marginBottom: "40px",
           }}
         >
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+          I have worked on a diverse range of products, from scaling high-impact
+          fintech ecosystems to building AI-driven automation workflows and
+          innovative startup concepts. Here are some of my featured projects.
         </Desc>
 
-        <ToggleButtonGroup>
+        {/* <ToggleButtonGroup>
           <ToggleButton
             active={toggle === "all"}
             onClick={() => setToggle("all")}
@@ -205,9 +206,9 @@ const Projects = () => {
           >
             Backend {projectCount("backend")}
           </ToggleButton>
-        </ToggleButtonGroup>
+        </ToggleButtonGroup> */}
 
-        <ToggleSwitchContainer>
+        {/* <ToggleSwitchContainer>
           <ToggleSwitch
             type="checkbox"
             checked={sourceFilter}
@@ -216,7 +217,7 @@ const Projects = () => {
           <ToggleSwitchLabel>
             Source Code Available Only
           </ToggleSwitchLabel>
-        </ToggleSwitchContainer>
+        </ToggleSwitchContainer> */}
 
         <CardContainer>
           {filteredProjects.map((project) => (
